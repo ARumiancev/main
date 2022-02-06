@@ -1,0 +1,165 @@
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  // height: 640px;
+  padding: 66px 40px;
+
+  background: url("../../resources/miestas.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.headerTurinys {
+  img {
+    margin-top: 66px;
+  }
+
+  h2 {
+    // color: purple;
+    width: 425px;
+    font-size: 36px;
+    padding: 22px 0;
+  }
+
+  .divider {
+    position: relative;
+    width: 84px;
+    height: 22px;
+    margin: 0 0 25px 0;
+    left: -10px;
+  }
+
+  p {
+    max-width: 650px;
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  a {
+    button {
+      height: 42px;
+      width: 135px;
+      background: transparent;
+      color: white;
+      border: solid white 2px;
+      margin-top: 43px;
+    }
+  }
+}
+
+.freeTrial {
+  background: white;
+  color: black;
+  max-width: 360px;
+  min-width: 271px;
+  margin-left: 20px;
+  border-radius: 6px;
+
+  h5 {
+    text-align: center;
+    background: #f5f5f5;
+    font-size: 20px;
+    height: 57px;
+    font-weight: 600;
+    padding: 17px 0px;
+    border-radius: 6px 6px 0 0;
+
+    span {
+      color: $peach;
+    }
+  }
+
+  form {
+    color: #d8d8d80c;
+
+    h6 {
+      color: black;
+      font-size: 16px;
+      margin-top: 30px;
+    }
+    .forma {
+      margin: 0 50px;
+
+      .radio {
+        // display: flex;
+        font-size: 9px;
+        font-weight: 600;
+        color: black;
+        margin: 18px 5px 42px 0;
+      }
+    }
+
+    input {
+      background-color: white;
+      width: 95%;
+      border: 1px #d8d8d83b;
+      border-style: none none groove none;
+      margin-top: 22px;
+    }
+  }
+  button {
+    // display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background: #41d395;
+    height: 57px;
+    width: 100%;
+    border: none;
+    border-radius: 0 0 6px 6px;
+    padding: 18px;
+  }
+}
+
+// RADIO MYGTUKAI
+input[type="radio"] {
+  /* Paslepia custom style elemento */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 13px !important;
+  height: 13px !important;
+  border: 1px solid #41d395 !important;
+  border-radius: 100%;
+
+  position: relative;
+  top: -20px;
+  margin-right: 2px;
+  opacity: 0.5;
+}
+
+input[type="radio"]:checked {
+  opacity: 1;
+}
+
+label {
+  font-size: 9px;
+  position: relative;
+  top: -23px;
+  opacity: 0.5;
+  margin-right: 17px;
+}
+
+label::before {
+  position: absolute;
+  content: "";
+  top: 1.5px;
+  left: -14.5px;
+  width: 7px;
+  height: 7px;
+  background-color: #41d395;
+  border-radius: 100%;
+  transform: scale(0);
+  transition: 0.3s;
+}
+
+input[type="radio"]:checked + label {
+  // position: relative;
+  opacity: 1;
+}
+
+input[type="radio"]:checked + label::before {
+  transform: scale(1);
+}

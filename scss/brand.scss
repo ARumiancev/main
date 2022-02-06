@@ -1,0 +1,31 @@
+section {
+  //   display: flex;
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+  justify-content: space-around;
+
+  background: white;
+  color: black;
+  padding: 19px 150px;
+
+  .tekstas {
+    width: 400px;
+    h3 {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    p {
+      padding-top: 5px;
+    }
+  }
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  i {
+    font-size: 30px;
+    padding: 15px;
+    color: $peach;
+  }
+}

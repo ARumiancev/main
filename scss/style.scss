@@ -1,0 +1,63 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+// importai
+@import "variables";
+@import "nav";
+@import "header";
+@import "brand";
+@import "article";
+@import "filler";
+@import "awesome";
+@import "pricing";
+@import "reviews";
+@import "contact";
+@import "footer";
+@import "media";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: Montserrat;
+}
+
+p {
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+}
+
+// swiper
+.swiper {
+  max-width: 1150px;
+  height: 300px;
+  text-align: center;
+  // margin: 0 auto;
+}
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  border: 2px solid $peach;
+  background: white;
+}
+
+.swiper-pagination-bullet-active {
+  background: $peach;
+  // box-shadow: 0 0 5px $peach;
+}

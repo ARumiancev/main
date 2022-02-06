@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 123px;
+  background-color: #1c1c1c;
+  padding: 0 10px;
+  .icons {
+    i {
+      font-size: 20px;
+      margin: 0 25px;
+    }
+  }
+  h6 {
+    font-size: 18px;
+    opacity: 0.5;
+    font-weight: 400;
+  }
+}

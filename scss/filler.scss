@@ -1,0 +1,53 @@
+.filler {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  // height: 595px;
+  background: #1c1c1c;
+  padding: 30px 0;
+
+  img {
+    width: 388px;
+    margin: 20px 0;
+  }
+
+  .container450 {
+    width: 460px;
+  }
+  h4 {
+    width: 320px;
+    font-size: 30px;
+  }
+
+  .container {
+    margin: 40px 0;
+    .skritulys {
+      float: left;
+      background: $peach;
+      height: 50px;
+      width: 50px !important;
+      border-radius: 50%;
+      margin-right: 20px;
+      margin-bottom: 40px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        font-size: 24px;
+      }
+    }
+
+    h6 {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.dividerOrange {
+  width: 200px !important;
+  margin: 27px 0;
+}

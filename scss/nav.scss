@@ -1,0 +1,72 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 72px;
+  background: #1c1c1c;
+  opacity: 1;
+
+  img {
+    width: 119px;
+    height: 52px;
+    transition: 0.3s;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 460px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    opacity: 69%;
+  }
+  a:hover {
+    opacity: 1;
+  }
+}
+
+// animacija
+.selected {
+  opacity: 1 !important;
+  color: $peach !important;
+}
+
+// sticky
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+// SIDE MENU
+#sideMenu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: #1c1c1c;
+  width: 150px;
+  transform: translateX(-800px);
+  transition: 0.3s;
+}
+.width {
+  order: -4;
+  transform: translate(-10px, 350px) !important;
+}
+
+#burger {
+  display: none;
+  transition: 0.3s;
+  // color: $peach;
+  // font-size: 35px;
+  // padding-right: 30px;
+}
+
+.rotateZ {
+  transform: rotateZ(-90deg);
+}

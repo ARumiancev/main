@@ -1,0 +1,72 @@
+.pricing {
+  background: #6696e2;
+  text-align: center;
+  color: white;
+  padding: 95px 0;
+
+  h2 {
+    font-size: 36px;
+    font-weight: 550;
+  }
+
+  img {
+    width: 64px;
+    margin: 23px;
+  }
+
+  p {
+    opacity: 0.8;
+  }
+
+  .plan {
+    width: 343px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 80px 15px 0px 15px;
+    .price {
+      background-color: #333333;
+      border-radius: 5px 5px 0 0;
+      h4 {
+        font-size: 18px;
+        font-weight: 200;
+        padding: 15px;
+      }
+      h2 {
+        font-size: 94px;
+        font-weight: 400;
+        opacity: 0.9;
+        span {
+          font-size: 30px;
+          font-weight: 300;
+        }
+      }
+      p {
+        opacity: 0.5;
+        font-weight: 200;
+        padding-bottom: 18px;
+      }
+    }
+    .promotion {
+      h6 {
+        line-height: 35px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.829);
+        min-height: 6px;
+        background-color: #41d395;
+        // padding: 10px;
+      }
+    }
+    .perks {
+      color: #86878b;
+      p {
+        padding: 11px;
+      }
+    }
+  }
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 15px;
+}

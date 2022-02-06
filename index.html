@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e57c2904bb.js" crossorigin="anonymous"></script>
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="app/css/style.css">
+    
+    <title>Cheshire County</title>
+<body>
+  <nav id="navbar">
+    <img src="resources\logo.svg" alt="logo">
+
+    <div id="sideMenu" class="navbar">
+      <a class="link" href="#features">Features</a>
+      <a class="link" href="#about">About</a>
+      <a class="link" href="#pricing">Pricing</a>
+      <a class="link" href="#reviews">Reviews</a>
+      <a class="link" href="#contacts">Contact</a>
+    </div>
+    
+    <div id="topMenu" class="navbar">
+      <a  class="link" href="#features">Features</a>
+      <a  class="link" href="#about">About</a>
+      <a  class="link" href="#pricing">Pricing</a>
+      <a  class="link" href="#reviews">Reviews</a>
+      <a  class="link" href="#contacts">Contact</a>
+      <!-- <img id="burger" width="20" src="resources\bars-solid.svg" alt="menu-burger"> -->
+      <img id="burger" width="20" src="resources\hamburger-solid.svg" alt="menu-burger">
+      <!-- <a id="burger" href="#">
+        <i class="fa fa-bars"></i>
+      </a> -->
+    </div>
+
+    
+  </nav>
+  <header>
+    <!-- <img class="miestas" src="resources\city.png" alt="city"> -->
+    <div class="headerTurinys">
+      <img src="resources\logo.svg" alt="">
+      <h2>Explained propriety of out perpetual to you!</h2>
+      <img class="divider" src="resources/divider.png" alt="">
+      <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor.
+      Explained propriety of out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated
+      astonished is.</p>
+      <a href="">
+        <button>DOWNLOAD</button>
+      </a>
+    </div>
+
+    <div class="freeTrial">
+      <h5>Try Your <span>FREE</span> Trial Today</h5>
+        <form>
+          <div class="forma">
+            <h6>Your details</h6>
+            <input id="fname" name="fname" type="text" placeholder="First name" required>
+            <input id="lname" name="lname" type="text" placeholder="Last name" required>
+            <input id="number" name="number" type="number" placeholder="Phone number" required>
+
+            <h6>Type of subscription</h6>
+            <div class="radio">
+              <input type="radio" id="monthly" name="subscription" value="monthly" checked>
+              <label for="monthly">MONTHLY</label>
+              
+              <input type="radio" id="yearly" name="subscription" value="yearly" >
+              <label for="yearly">YEARLY</label>
+            </div>
+          </div>
+          
+          <button type="submit">GET STARTED</button>
+        </form>
+      
+    </div>
+  </header>
+  <section>
+    <div class="tekstas">
+      <h3>Social Media</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+    </div>
+    <div class="icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-pinterest-p"></i></a>
+      <a href="#"><i class="fas fa-rss"></i></a>
+    </div>
+  </section>
+  <article id="features">
+    <div class="tabs">
+      <button class="tabMygtukas paspaustas" onclick="changeContent(0)"><div class="pasuktas">REGISTER</div></button>
+      <button class="tabMygtukas" onclick="changeContent(1)"><div class="pasuktas">APPLY</div></button>
+      <button class="tabMygtukas" onclick="changeContent(2)"><div class="pasuktas">RECEIVE</div></button>
+    </div>
+    <div class="skaidre flexbox parodyk opacity">
+      <div class="flexbox">
+        <div class="featureTekstas">
+          <h3>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit
+            amet
+            lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+            parturient montes. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+            laoreet.</p>
+        </div>
+        <div class="featurePaveiksliukai">
+          <div class="img img1">
+          </div>
+          <div class="img img2"></div>
+          <div class="img img3"></div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="skaidre flexbox">
+      <div class="flexbox">
+        <div class="featureTekstas">
+          <h3>Tabs with soft transitioning effect. Explained propriety of out perpetual his you 2.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit
+            amet
+            lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+            parturient montes. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+            laoreet.</p>
+        </div>
+        <div class="featurePaveiksliukai">
+          <div class="img img1">
+          </div>
+          <div class="img img2"></div>
+          <div class="img img3"></div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="skaidre flexbox">
+      <div class="flexbox">
+        <div class="featureTekstas">
+          <h3>Tabs with soft transitioning effect. Explained propriety of out perpetual his you 3.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit
+            amet
+            lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+            parturient montes. <br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+            laoreet.</p>
+        </div>
+        <div class="featurePaveiksliukai">
+          <div class="img img1">
+          </div>
+          <div class="img img2"></div>
+          <div class="img img3"></div>
+        </div>
+      </div>
+      
+    </div>
+  </article>
+  <div id="about" class="filler">
+    <img src="resources\logo.svg" alt="logo">
+    <div class="container450">
+      <h4>Erat tempor tempus erat malesuada</h4>
+      <img class="dividerOrange" src="resources\divider_orange_u7 copy 4.svg" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+      lacus accumsan et viverra justo commodo.</p>
+      <div class="container">
+        <div class="skritulys"><i class="far fa-eye"></i></div>
+        <h6>Title</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+      </div>
+      <div class="container">
+        <div class="skritulys"><i class="far fa-comment"></i></div>
+        <h6>Title</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+        lacus accumsan et viverra justo commodo.</p>
+      </div>
+    </div>
+  </div>
+  <div class="awesome">
+    <h2>WHY THIS IS AWESOME</h2>
+    <img src="resources\divider_orange_u7 copy 3.svg" alt="divider">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <div class="threeAdvantages">
+      <div class="advantage">
+        <div class="apskritimas"><i class="fas fa-award"></i></div>
+        <h5>Thoughtful Design</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod ibendum laoreet.</p>
+      </div>
+      <div class="advantage">
+        <div class="apskritimas"><i class="fas fa-spa"></i></div>
+        <h5>Well Crafted</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Aenean euismod bibendum.</p>
+      </div>
+      <div class="advantage">
+        <div class="apskritimas"><i class="fab fa-cc-visa"></i></div>
+        <h5>Easy to Customize</h5>
+        <p>Proin gravida dolor sit amet lacus accumsan et viverra..</p>
+      </div>
+    </div>
+
+  </div>
+  <div id="pricing" class="pricing">
+    <h2>PRICING OPTIONS</h2>
+    <img src="resources\divider_blue_u7 copy.svg" alt="divider">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="container1">
+      <div class="plan">
+        <div class="price">
+          <h4>Basic</h4>
+          <h2><span>$</span>0</h2>
+          <p>Free for Life</p>
+        </div>
+        <div class="promotion">
+          <h6></h6>
+        </div>
+        <div class="perks">
+          <p>1GB OF SPACE</p>
+          <p>1GB OF BANDWIDTH</p>
+          <p>3 WEBSITES</p>
+          <p>BASIC CUSTOIZATION</p>
+          <p>WORDPRESS INTEGRATION</p>
+          <p>EMAIL SUPPORT</p>
+        </div>
+      </div>
+      <div class="plan">
+        <div class="price">
+          <h4>Professional</h4>
+          <h2><span>$</span>19</h2>
+          <p>Monthly Payment</p>
+        </div>
+        <div class="promotion">
+          <h6>OUR MOST POPULAR</h6>
+        </div>
+        <div class="perks">
+          <p>5 GB OF SPACE</p>
+          <p>50 GB OF BANDWIDTH</p>
+          <p>12 WEBSITES</p>
+          <p>ADVANCED CUSTOMIZATION</p>
+          <p>WORDPRESS INTEGRATION</p>
+          <p>EMAIL SUPPORT</p>
+        </div>
+      </div>
+      <div class="plan">
+        <div class="price">
+          <h4>Enterprise</h4>
+          <h2><span>$</span>70</h2>
+          <p>Monthly Payment</p>
+        </div>
+        <div class="promotion">
+          <h6></h6>
+        </div>
+        <div class="perks">
+          <p>UNLIMITED SPACE</p>
+          <p>UNLIMITED BANDWIDTH</p>
+          <p>100 WEBSITES</p>
+          <p>ADVANCED CUSTOMIZATION</p>
+          <p>WORDPRESS INTEGRATION</p>
+          <p>24/7 CUSTOMER SUPPORT</p>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+  <div id="reviews" class="reviews">
+    <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
+    <img src="resources\blue_divider.svg" alt="divider">
+
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper ">
+        <!-- Slides -->
+        <div class="swiper-slide container2">
+          <div class="zmogus">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio
+              aspernatur ex.</p>
+            <div class="kas">
+              <div class="avatar"></div>
+              <div class="vardas">
+                <h5>Jeremy H.</h5>
+                <h6>Manager</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide ">
+          <div class="zmogus">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+            <div class="kas">
+              <div class="avatar"></div>
+              <div class="vardas">
+                <h5>John S.</h5>
+                <h6>Freelancer</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="zmogus">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio
+              aspernatur ex.</p>
+            <div class="kas">
+              <div class="avatar"></div>
+              <div class="vardas">
+                <h5>Susan W.</h5>
+                <h6>Photographer</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="zmogus">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+            <div class="kas">
+              <div class="avatar"></div>
+              <div class="vardas">
+                <h5>Mike Hawk</h5>
+                <h6>Vice President</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> -->
+    
+    </div>
+
+
+
+    <div class="container2">
+      
+      
+      
+
+      
+
+    </div>
+
+  </div>
+  <div id="contacts" class="contact">
+    <h2>CONTACT US</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="freeTrial contactForma">
+      <form>
+        <div class="forma">
+          <input id="fname" name="fname" type="text" placeholder="First name" required>
+          <input id="lname" name="lname" type="text" placeholder="Last name" required>
+          <input id="number" name="number" type="number" placeholder="Phone number" required>
+    
+          <div class="radio radioContact">
+            <input type="radio" id="personal" name="contact" value="personal" checked>
+            <label for="personal">PERSONAL</label>
+    
+            <input type="radio" id="company" name="contact" value="company">
+            <label for="company">COMPANY</label>
+          </div>
+        </div>
+    
+        <button class="send" type="submit">SEND</button>
+      </form>
+    
+    </div>
+  </div>
+  <footer>
+    <div class="icons ikonos">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-pinterest-p"></i></a>
+      <a href="#"><i class="fas fa-rss"></i></a>
+    </div>
+    <h6>© 2019 Cheshire County</h6>
+  </footer>
+  
+  <!-- Swiper JS bundle -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Swiper JS script -->
+  <script src="swiper.js"></script>
+  <!-- bendras JS -->
+  <script src="script.js"></script>
+</body>
+</html>
